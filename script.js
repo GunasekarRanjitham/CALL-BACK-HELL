@@ -1,6 +1,6 @@
 var div=document.getElementById('timer')
  
- setTimeout(()=>{
+ setTimeout(()=>{ 
       div.innerHTML=10
         setTimeout(()=>{
             div.innerHTML=9
@@ -23,7 +23,7 @@ var div=document.getElementById('timer')
                                             setTimeout(()=>{
                                                 div.innerHTML=0
                                                 setTimeout(()=>{
-                                                    div.innerHTML='<h1>HAPPY INDEPENDENCE DAY</h1>';
+                                                    div.innerHTML='<img src="R.jpeg">';
                                                 },1000)
                                             },1000)
                                         },1000)
